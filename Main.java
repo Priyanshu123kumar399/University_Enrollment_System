@@ -3,12 +3,12 @@ package University_Enrollment_System;
 public class Main {
     public static void main(String[] args){
         // 1. Create professor
-        Professor proAbhishek = new Professor("pankaj", "pankajk@gmail.com", "Computer Science");
+        Professor proPankaj = new Professor("pankaj", "pankajk@gmail.com", "Computer Science");
         // 2  Creating Student
         Student s1 = new Student("Priyanshu", priyanshu"@iilm.edu", 9.1);
-        Student s2 = new Student("Utkarsh", "utkarsh@iilm.edu", 9.0);
+        Student s2 = new Student("rahul", "rahul@iilm.edu", 9.0);
         Student s3 = new Student("Nitisht", "nitish@iilm.edu", 9.5);
-        Student s4 = new Student("Rohit", "rohit@iilm.edu", 9.52);
+        Student s4 = new Student("Annu", "annu@iilm.edu", 9.52);
         Student s5 = new Student("Aditya", "aditya@iilm.edu", 8.5);
          // print raw data
         System.out.println("1. Individual data");
